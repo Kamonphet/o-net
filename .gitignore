@@ -1,0 +1,14 @@
+# Scratch work scripts and source exam scans/PDFs
+work/
+group_A-B1-C1/
+group_B2-C2/
+
+# Secrets & environment files
+.env
+.env.*
+
+# OS / Editor artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log

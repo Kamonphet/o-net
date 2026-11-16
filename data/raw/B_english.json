@@ -1,0 +1,679 @@
+{
+  "group": "B",
+  "setCode": 200,
+  "subject": "english",
+  "subjectName": "ภาษาอังกฤษ",
+  "subjectCode": 63,
+  "year": 2568,
+  "examDate": "31 มกราคม 2569",
+  "durationMinutes": 60,
+  "sections": [
+    {
+      "id": 1,
+      "title": "Part 1: Language Use (Items 1–17)",
+      "instructions": "Choose the BEST answer. (ข้อ 1–17 ข้อละ 3.125 คะแนน รวม 53.125 คะแนน)",
+      "points": 3.125,
+      "totalPoints": 53.125
+    },
+    {
+      "id": 2,
+      "title": "Part 2: Reading Comprehension (Items 18–32)",
+      "instructions": "Choose the BEST answer. (ข้อ 18–32 ข้อละ 3.125 คะแนน รวม 46.875 คะแนน)",
+      "points": 3.125,
+      "totalPoints": 46.875
+    }
+  ],
+  "questions": [
+    {
+      "no": 1,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Laura: I like reading comics in my free time. ______?\nPauline: I collect banknotes.",
+      "choices": [
+        "How are you",
+        "How about you",
+        "What are you like",
+        "What are you doing"
+      ],
+      "answer": 2,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q2"
+      ],
+      "explanation": "ลอร่าเล่าว่าเวลาว่างชอบอ่านการ์ตูน แล้วพอลลีนตอบว่าฉันสะสมธนบัตร จึงเป็นการถามกลับว่า “How about you?” (แล้วคุณล่ะ)"
+    },
+    {
+      "no": 2,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Woman: ______ Is this the way to the library?\nMan: Yes, it's around the corner.",
+      "choices": [
+        "Excuse me.",
+        "Are you lost?",
+        "Can I help you?",
+        "You're welcome."
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q3"
+      ],
+      "explanation": "ก่อนถามทางจากคนแปลกหน้า (“นี่ใช่ทางไปห้องสมุดไหมคะ”) ตามมารยาทควรกล่าวคำขึ้นต้นอย่างสุภาพว่า “Excuse me.” (ขอโทษนะคะ/ครับ)"
+    },
+    {
+      "no": 3,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Jane: You look worried. ______?\nJoy: I have to do a presentation this afternoon.",
+      "choices": [
+        "What's wrong",
+        "How's your plan",
+        "What do you have",
+        "How is the presentation"
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q1"
+      ],
+      "explanation": "เจนเห็นจอยดูเป็นกังวล (worried) และจอยตอบว่าต้องนำเสนองานบ่ายนี้ จึงควรถามไถ่สาเหตุว่า “What's wrong?” (เกิดอะไรขึ้น / เป็นอะไรหรือเปล่า)"
+    },
+    {
+      "no": 4,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Joe: What do you think of the new English teacher?\nNancy: ______.",
+      "choices": [
+        "She is very kind",
+        "I like English a lot",
+        "We have English class today",
+        "I don't understand English very well"
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q5"
+      ],
+      "explanation": "โจถามความคิดเห็นเกี่ยวกับครูสอนภาษาอังกฤษคนใหม่ (“What do you think of...?”) แนนซี่จึงต้องตอบลักษณะของครู คือ “She is very kind.” (ครูใจดีมาก)"
+    },
+    {
+      "no": 5,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Jenny: Can you help me with this math problem?\nAlan: ______.",
+      "choices": [
+        "Yes, I need help",
+        "No, I don't need help",
+        "I don't have a problem",
+        "Sure! Let's look at it together"
+      ],
+      "answer": 4,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q6"
+      ],
+      "explanation": "เจนนี่ขอความช่วยเหลือเรื่องโจทย์คณิตศาสตร์ (“Can you help me...?”) อลันตอบรับอย่างเหมาะสมว่า “Sure! Let's look at it together.” (ได้เลย! มาดูด้วยกันเถอะ)"
+    },
+    {
+      "no": 6,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Lewis: Would you mind turning on the lights?\nNathan: ______ OK now?",
+      "choices": [
+        "Not at all.",
+        "Yes, I would.",
+        "I'm very busy.",
+        "What's on your mind?"
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q4"
+      ],
+      "explanation": "สำนวน “Would you mind + V-ing...?” แปลว่า “คุณจะรังเกียจไหมถ้าจะช่วย...” เมื่อเต็มใจทำให้ ต้องตอบปฏิเสธว่าไม่รังเกียจ คือ “Not at all.” (ไม่เลย/ยินดีครับ) แล้วเปิดไฟให้พร้อมถามว่า OK now?"
+    },
+    {
+      "no": 7,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Kayla: I feel a little tired today.\nPaul: What happened?\nKayla: ______ last night.",
+      "choices": [
+        "I didn't dream",
+        "I slept like a baby",
+        "I didn't sleep well",
+        "I went to bed early"
+      ],
+      "answer": 3,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q8"
+      ],
+      "explanation": "เคย์ล่าบอกว่าวันนี้รู้สึกเหนื่อย/เพลีย เพราะเมื่อคืน “I didn't sleep well” (ฉันนอนหลับไม่ค่อยสนิท) ส่วน “slept like a baby” แปลว่าหลับสนิทมาก"
+    },
+    {
+      "no": 8,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Steve: ______?\nJeff: Not really, I prefer sunny days. And you?\nSteve: I actually enjoy the rain. It makes me feel calm.",
+      "choices": [
+        "Is it raining now",
+        "What time is sunrise",
+        "Do you like rainy days",
+        "Do you enjoy being outdoors"
+      ],
+      "answer": 3,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q9"
+      ],
+      "explanation": "เจฟฟ์ตอบว่า “ไม่ค่อยนะ ฉันชอบวันแดดออกมากกว่า” และสตีฟบอกว่า “จริง ๆ ฉันชอบฝนนะ” คำถามของสตีฟจึงต้องถามว่า “Do you like rainy days?” (คุณชอบวันฝนตกไหม)"
+    },
+    {
+      "no": 9,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Dan: Did you hear the storm last night?\nJenny: Yes, and the lightning lit up the whole sky!\nHow was the weather last night?",
+      "choices": [
+        "Foggy and cloudy",
+        "Clear with a full moon",
+        "Cold with a lot of snow",
+        "Rainy with a thunderstorm"
+      ],
+      "answer": 4,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q7"
+      ],
+      "explanation": "แดนถามถึงพายุ (storm) เมื่อคืน และเจนนี่บอกว่าฟ้าแลบ (lightning) สว่างทั่วท้องฟ้า แสดงว่าสภาพอากาศเมื่อคืนเป็น “Rainy with a thunderstorm” (ฝนตกและมีพายุฝนฟ้าคะนอง)"
+    },
+    {
+      "no": 10,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Student: Good morning, Miss Adams! ______?\nTeacher: Yes, please. That's very kind of you.\nStudent: You're welcome!",
+      "choices": [
+        "Can I borrow your English textbooks",
+        "Shall we go to the classroom together",
+        "Do you need help carrying those books",
+        "Should I give you homework tomorrow"
+      ],
+      "answer": 3,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q11"
+      ],
+      "explanation": "นักเรียนทักทายครูแล้วเสนอความช่วยเหลือ ครูตอบรับว่า “Yes, please. That's very kind of you.” (รบกวนด้วยจ้ะ ใจดีมากเลย) จึงตรงกับคำถามเสนอช่วยถือหนังสือ “Do you need help carrying those books?”"
+    },
+    {
+      "no": 11,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Sora: How many people are there in your family?\nPeter: There are five of us–my parents, a brother, a sister, and me. What about you?\nSora: ______.",
+      "choices": [
+        "We moved a lot",
+        "Same here! We are one big family",
+        "Not really. My parents don't have much money",
+        "I lived with my grandparents when I was younger too"
+      ],
+      "answer": 2,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q10"
+      ],
+      "explanation": "ปีเตอร์บอกว่าครอบครัวมี 5 คน แล้วถามกลับว่า What about you? โซระตอบว่า “Same here! We are one big family” (เหมือนกันเลย! บ้านเรามีกันเป็นครอบครัวใหญ่)"
+    },
+    {
+      "no": 12,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "John: I think this library needs new chairs.\nJeff: ______.\nJohn: It would make studying much more comfortable.",
+      "choices": [
+        "That's true",
+        "It is so quiet here",
+        "I don't know where it is",
+        "I want to borrow a book"
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q12"
+      ],
+      "explanation": "จอห์นออกความเห็นว่าห้องสมุดควรมีเก้าอี้ใหม่ แล้วพูดเสริมว่าจะทำให้นั่งอ่านหนังสือสบายขึ้น เจฟฟ์จึงพูดเห็นด้วยว่า “That's true.” (จริงด้วย / เห็นด้วยเลย)"
+    },
+    {
+      "no": 13,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Nutcha: ______.\nAndy: Yes, I think that's a great idea.\nNutcha: It would help keep our school clean.",
+      "choices": [
+        "Our shoes are very dirty",
+        "There is trash everywhere",
+        "I always clean my bedroom",
+        "We should have more trash bins"
+      ],
+      "answer": 4,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q13"
+      ],
+      "explanation": "แอนดี้เห็นด้วยว่า “เป็นความคิดที่เยี่ยมมาก” และณัชชาเสริมว่า “จะช่วยให้โรงเรียนสะอาด” ประโยคเสนอแนะของณัชชาจึงคือ “We should have more trash bins.” (เราควรมีถังขยะเพิ่มขึ้น)"
+    },
+    {
+      "no": 14,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Coach: Tomorrow is our biggest basketball match. You will have to stay late to practice this evening.\nTony: ______?\nCoach: I'm not sure. Maybe around 8 PM.",
+      "choices": [
+        "Why are you always late",
+        "What do you want us to do",
+        "What time will we get to go home",
+        "Will we have a big match again"
+      ],
+      "answer": 3,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q14"
+      ],
+      "explanation": "โค้ชบอกว่าเย็นนี้ต้องอยู่ซ้อมดึก และโค้ชตอบว่า “ไม่แน่ใจ น่าจะราว ๆ 2 ทุ่ม (around 8 PM)” โทนี่จึงถามเวลาเลิกกลับบ้านว่า “What time will we get to go home?”"
+    },
+    {
+      "no": 15,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Teacher: That's it for today. Do you have any questions?\nSonny: I do. Can you explain the past simple tense again?\nTeacher: Of course, we'll do it tomorrow. ______.",
+      "choices": [
+        "You can stay for a moment",
+        "You should ask a new question",
+        "I will not ask that question again",
+        "Please review it at home first"
+      ],
+      "answer": 4,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q15"
+      ],
+      "explanation": "ซันนี่ขอให้ครูอธิบาย Past Simple Tense อีกครั้ง ครูรับปากว่าจะอธิบายให้วันพรุ่งนี้ แล้วพูดต่ออย่างเหมาะสมว่า “Please review it at home first.” (ช่วยกลับไปทบทวนที่บ้านมาก่อนนะ)"
+    },
+    {
+      "no": 16,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Which of the following underlined words has the same vowel sound as \"chip\"?",
+      "choices": [
+        "Cats have nine <u>lives</u>.",
+        "My parents <u>drive</u> to work.",
+        "Nina <u>gives</u> presents to children.",
+        "They always <u>arrive</u> 15 minutes earlier."
+      ],
+      "answer": 3,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q16"
+      ],
+      "explanation": "คำว่า “chip” ออกเสียงสระเสียงสั้น /ɪ/ (ชิพ) เช่นเดียวกับคำว่า “gives” /ɡɪvz/ (กิฟวส์) ส่วน lives (พหูพจน์ของ life = /laɪvz/), drive (/draɪv/) และ arrive (/əˈraɪv/) ออกเสียงสระ /aɪ/ (ไอ) ทั้งหมด"
+    },
+    {
+      "no": 17,
+      "section": 1,
+      "type": "mcq",
+      "passage": null,
+      "question": "Which of the following sentences uses WRONG punctuation?",
+      "choices": [
+        "How wonderful!",
+        "What a terrible mistake?",
+        "She didn't know what to say.",
+        "She works in two places: Bangkok and Chonburi."
+      ],
+      "answer": 2,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q17"
+      ],
+      "explanation": "ประโยคอุทานที่ขึ้นต้นด้วย What a/an + adj. + noun เช่น “What a terrible mistake!” (ช่างเป็นความผิดพลาดที่ร้ายแรงอะไรเช่นนี้!) ต้องลงท้ายด้วยเครื่องหมายอัศเจรีย์ (!) ไม่ใช่เครื่องหมายคำถาม (?)"
+    },
+    {
+      "no": 18,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Today is Monday. Which of the following can Jennifer buy for lunch?",
+      "choices": [
+        "Ice Cream and Mac & Cheese",
+        "Apple Juice and Mac & Cheese",
+        "Coca Cola and Chicken Wings+Fish Steak",
+        "Fizzy Drink and Chicken Wings+Fish Steak"
+      ],
+      "answer": 2,
+      "images": [
+        "images/B_english_q18.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q18"
+      ],
+      "explanation": "วันนี้เป็นวันจันทร์ เจนนิเฟอร์มีงบ $16 ต้องซื้ออาหารจานหลัก 1 อย่าง + เครื่องดื่ม 1 อย่าง โดยห้ามซื้อของหวาน (อนุญาตเฉพาะวันศุกร์) และห้ามดื่มน้ำอัดลม (Fizzy Drink / Coca Cola):\n• ข้อ 1 ผิด เพราะ Ice Cream เป็นของหวาน (ซื้อวันจันทร์ไม่ได้)\n• ข้อ 2 ถูก: Apple Juice ($1.50) + Mac & Cheese ($9.50) = $11.00 ไม่เกินงบ $16 และไม่ผิดกฎ\n• ข้อ 3 และ 4 ผิด เพราะ Coca Cola และ Fizzy Drink เป็นน้ำอัดลม (Soda)"
+    },
+    {
+      "no": 19,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Why is Jennifer NOT allowed to have soda?",
+      "choices": [
+        "It's unhealthy.",
+        "It's expensive.",
+        "It's her favorite.",
+        "It's only on Fridays."
+      ],
+      "answer": 1,
+      "images": [
+        "images/B_english_q18.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q19"
+      ],
+      "explanation": "ในกรอบ Restrictions ระบุว่า “Soda: Not allowed (Bad for teeth)” (ห้ามดื่มน้ำอัดลมเพราะไม่ดีต่อฟัน) จึงตรงกับเหตุผลว่า “It's unhealthy.” (มันไม่ดีต่อสุขภาพ)"
+    },
+    {
+      "no": 20,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Look at the sign.\n\nWhat does this sign mean?",
+      "choices": [
+        "Only cars are allowed here.",
+        "The lane is only for bicycles.",
+        "Students should stay in this lane.",
+        "No vehicles are allowed near this area."
+      ],
+      "answer": 2,
+      "images": [
+        "images/B_english_q20.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q20"
+      ],
+      "explanation": "ป้าย “BIKE LANE” พร้อมสัญลักษณ์รถจักรยาน หมายถึง ช่องทางสำหรับรถจักรยานเท่านั้น ตรงกับ “The lane is only for bicycles.”"
+    },
+    {
+      "no": 21,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Jenisa: Tommy, are there any recycling bins here?\nTommy: Yes, look at that sign. We have a bin for recycling. It helps make less waste.\nJenisa: That's good! I should start recycling more.\n\nWhich sign are they talking about?",
+      "choices": [],
+      "answer": 2,
+      "images": [
+        "images/B_english_q21.png"
+      ],
+      "choiceImages": true,
+      "flags": [
+        "verified-from-set-100: A_english Q21"
+      ],
+      "explanation": "บทสนทนาพูดถึงถังขยะรีไซเคิล (recycling bin) เพื่อลดขยะ สัญลักษณ์สากลของการรีไซเคิลคือลูกศร 3 หัวหมุนวนเป็นรูปสามเหลี่ยม ตรงกับภาพที่ 2"
+    },
+    {
+      "no": 22,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Look at the weather forecast.\n\nIf you're going out on Friday, which of these will you need?",
+      "choices": [
+        "Gloves",
+        "Goggles",
+        "A jacket",
+        "An umbrella"
+      ],
+      "answer": 4,
+      "images": [
+        "images/B_english_q22.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q23"
+      ],
+      "explanation": "จากพยากรณ์อากาศ วันศุกร์ (Fri) มีสัญลักษณ์เมฆและฝนตก เมื่อออกไปข้างนอกจึงต้องพกร่ม “An umbrella”"
+    },
+    {
+      "no": 23,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Look at the notice.\n\nWhat is the best title for this notice?",
+      "choices": [
+        "Study tips",
+        "Library sign",
+        "Classroom rules",
+        "Homework guidelines"
+      ],
+      "answer": 3,
+      "images": [
+        "images/B_english_q23.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q22"
+      ],
+      "explanation": "ประกาศในภาพกล่าวถึงการตั้งใจฟังเมื่อผู้อื่นพูด การทำตามคำสั่งอย่างรวดเร็วและเงียบ การยกมือก่อนพูด และการเคารพผู้อื่น/ตนเอง/โรงเรียน จึงเหมาะกับหัวข้อ “Classroom rules” (กฎในห้องเรียน)"
+    },
+    {
+      "no": 24,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Look at the bar chart.\n\nWhich information can you get from the bar chart above?",
+      "choices": [
+        "Names of students",
+        "Numbers of boys and girls",
+        "The most popular subject in the school",
+        "Names of eight subjects in the school"
+      ],
+      "answer": 3,
+      "images": [
+        "images/B_english_q24.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q24"
+      ],
+      "explanation": "แผนภูมิแท่งแสดงผลโหวตวิชาที่นักเรียนชื่นชอบ 4 วิชา (Math 40, English 25, Science 20, Art 15) จึงบอกข้อมูลได้ว่าวิชาใดได้รับความนิยมมากที่สุดในโรงเรียน (“The most popular subject in the school” คือ Math)"
+    },
+    {
+      "no": 25,
+      "section": 2,
+      "type": "mcq",
+      "passage": null,
+      "question": "Look at the diagram.\n\nWhat happens to water after the sun heats it?",
+      "choices": [
+        "It turns into snow.",
+        "It stays on the ground.",
+        "It goes up into the sky.",
+        "It immediately falls as rain."
+      ],
+      "answer": 3,
+      "images": [
+        "images/B_english_q25.png"
+      ],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q25"
+      ],
+      "explanation": "แผนภาพวัฏจักรน้ำแสดงให้เห็นว่าเมื่อดวงอาทิตย์ให้ความร้อนแก่น้ำ (Water) น้ำจะระเหยลอยขึ้นไปบนท้องฟ้ากลายเป็นเมฆ ตรงกับ “It goes up into the sky.”"
+    },
+    {
+      "no": 26,
+      "section": 2,
+      "type": "mcq",
+      "passage": "Shop Assistant: Great choice! Let me check the stock. Here, you can get this blue shirt in XL.\nCustomer: Perfect! Can I try it on?\nShop Assistant: Yes, the fitting rooms are over there.",
+      "question": "Read the dialogue. Which sentence is CORRECT?",
+      "choices": [
+        "The customer wants to try on the blue shirt.",
+        "The customer is looking for blue shorts in XL.",
+        "The shop assistant shows the customer where to pay.",
+        "The shop assistant says the fitting rooms are on the second floor."
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q26"
+      ],
+      "explanation": "ในบทสนทนา พนักงานหยิบเสื้อเชิ้ตสีน้ำเงินไซซ์ XL (blue shirt in XL) ให้ แล้วลูกค้าถามว่า “Can I try it on?” (ขอลองสวมได้ไหม) จึงตรงกับข้อ 1 “The customer wants to try on the blue shirt.” (ข้อ 2 ผิดเพราะ shorts แปลว่ากางเกงขาสั้น)"
+    },
+    {
+      "no": 27,
+      "section": 2,
+      "type": "mcq",
+      "passage": "PM2.5 is very small dust in the air. It comes from cars, factories, and burning things. PM2.5 can make us sick if we breathe it. Wearing masks and planting trees can help reduce PM2.5 problems.",
+      "question": "Read the passage. Which of the following sentences about PM2.5 is CORRECT?",
+      "choices": [
+        "Masks make PM2.5 worse.",
+        "PM2.5 is large and easy to see.",
+        "PM2.5 comes from clean sources.",
+        "PM2.5 can cause health problems."
+      ],
+      "answer": 4,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q27"
+      ],
+      "explanation": "บทอ่านระบุว่า “PM2.5 can make us sick if we breathe it.” (ฝุ่น PM2.5 ทำให้เราป่วยได้หากสูดดมเข้าไป) จึงตรงกับ “PM2.5 can cause health problems.” (ก่อให้เกิดปัญหาสุขภาพ)"
+    },
+    {
+      "no": 28,
+      "section": 2,
+      "type": "mcq",
+      "passage": "Nathan is a primary student living in Chiang Rai, Thailand. Every morning, he rides his bike to school, passing green rice fields. He likes learning about the past and exploring old places. After school, he often visits local temples. Nathan wants to be a historian and share his love of history with others.",
+      "question": "Read the story. Why does Nathan love history?",
+      "choices": [
+        "Because history is easy for him.",
+        "Because he likes lovely green rice fields.",
+        "Because he enjoys visiting historical places.",
+        "Because history has many pictures in temples."
+      ],
+      "answer": 3,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q28"
+      ],
+      "explanation": "บทอ่านระบุว่านาธานชอบเรียนรู้เกี่ยวกับอดีตและสำรวจสถานที่เก่าแก่ หลังเลิกเรียนมักไปวัดในท้องถิ่น จึงสรุปเหตุผลได้ว่า “Because he enjoys visiting historical places.” (เพราะเขาชอบไปเยี่ยมชมสถานที่ทางประวัติศาสตร์)"
+    },
+    {
+      "no": 29,
+      "section": 2,
+      "type": "mcq",
+      "passage": "In Britain, students have a special day called National Thank a Teacher Day in October. On this day, students can show how much they appreciate their teachers and other school helpers by writing notes or sending cards. It is a way to say \"thank you\" for all the help they give. Parents also help their children show gratitude on this day.",
+      "question": "What do British students do on National Thank a Teacher Day?",
+      "choices": [
+        "Buy cards for their parents",
+        "Teach their friends to be thankful",
+        "Buy expensive gifts for their teachers",
+        "Write messages to show appreciation for teachers and staff"
+      ],
+      "answer": 4,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q29"
+      ],
+      "explanation": "ในวัน National Thank a Teacher Day ของอังกฤษ นักเรียนแสดงความขอบคุณครูและบุคลากรในโรงเรียนด้วยการเขียนโน้ตหรือส่งการ์ด (“by writing notes or sending cards”) ตรงกับข้อ 4"
+    },
+    {
+      "no": 30,
+      "section": 2,
+      "type": "mcq",
+      "passage": "In Britain, students have a special day called National Thank a Teacher Day in October. On this day, students can show how much they appreciate their teachers and other school helpers by writing notes or sending cards. It is a way to say \"thank you\" for all the help they give. Parents also help their children show gratitude on this day.",
+      "question": "Which is NOT mentioned in this text?",
+      "choices": [
+        "The place it celebrates",
+        "The people it celebrates",
+        "The month it is celebrated",
+        "The reason it is celebrated"
+      ],
+      "answer": 1,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q30"
+      ],
+      "explanation": "ตรวจสอบข้อมูลในบทอ่าน:\n• People (บุคคลที่ยกย่อง): teachers and other school helpers (มี)\n• Month (เดือนที่จัด): in October (มี)\n• Reason (เหตุผลที่จัด): to say 'thank you' for all the help they give (มี)\n• Place (สถานที่จัดงาน เช่น จัดที่หอประชุมหรือที่ใด): ไม่ได้กล่าวถึงเฉพาะเจาะจง จึงตอบข้อ 1"
+    },
+    {
+      "no": 31,
+      "section": 2,
+      "type": "mcq",
+      "passage": "Black Friday is the Friday after Thanksgiving in the United States. It is the start of the Christmas shopping season. Many shops sell things at lower prices. Some sales last for a week.\n\nIn the United Kingdom, Black Friday means something different. It is the Friday before Christmas. On this day, many people go out to drink and party. For police officers and doctors, it is a busy day. They make special plans, like putting ambulances near places where people go out.",
+      "question": "In the United States, what do people do on Black Friday?",
+      "choices": [
+        "They drink and have parties.",
+        "They buy things at cheaper prices.",
+        "They work extra hard to do more shopping.",
+        "They drive ambulances to help other people."
+      ],
+      "answer": 2,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q31"
+      ],
+      "explanation": "ย่อหน้าแรกระบุว่าในสหรัฐอเมริกา (United States) วัน Black Friday ร้านค้าจำนวนมากลดราคาสินค้า (“Many shops sell things at lower prices.”) ผู้คนจึงซื้อของในราคาถูกลง ตรงกับข้อ 2"
+    },
+    {
+      "no": 32,
+      "section": 2,
+      "type": "mcq",
+      "passage": "Black Friday is the Friday after Thanksgiving in the United States. It is the start of the Christmas shopping season. Many shops sell things at lower prices. Some sales last for a week.\n\nIn the United Kingdom, Black Friday means something different. It is the Friday before Christmas. On this day, many people go out to drink and party. For police officers and doctors, it is a busy day. They make special plans, like putting ambulances near places where people go out.",
+      "question": "Which of the following is TRUE about Black Friday?",
+      "choices": [
+        "People stay at home and relax on this day.",
+        "Not everyone gets to enjoy this special day.",
+        "Most shops sell expensive goods on this day.",
+        "Black Friday in the two countries means the same thing."
+      ],
+      "answer": 2,
+      "images": [],
+      "choiceImages": false,
+      "flags": [
+        "verified-from-set-100: A_english Q32"
+      ],
+      "explanation": "ในสหราชอาณาจักร วัน Black Friday ผู้คนออกไปดื่มสังสรรค์กันมาก ทำให้ตำรวจและแพทย์ต้องทำงานหนักเตรียมรถพยาบาลรับมือ จึงสรุปได้ถูกต้องว่า “Not everyone gets to enjoy this special day.” (ไม่ใช่ทุกคนที่จะได้สนุกสนานเพลิดเพลินในวันพิเศษนี้)"
+    }
+  ]
+}

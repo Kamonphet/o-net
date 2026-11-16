@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คลังข้อสอบและระบบติว O-NET ป.6 ปีการศึกษา 2568 (ชุด 100 และ 200)</title>
+  <meta name="description" content="ระบบฝึกทำข้อสอบและติวข้อสอบ O-NET ชั้นประถมศึกษาปีที่ 6 ปีการศึกษา 2568 ครบทั้ง 4 วิชา (คณิตศาสตร์ ภาษาไทย วิทยาศาสตร์ ภาษาอังกฤษ) ชุดที่ 100 และชุดที่ 200 พร้อมเฉลยละเอียด">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <header class="topbar" role="banner">
+    <div class="topbar-inner">
+      <button type="button" id="brand-home-btn" class="brand-btn" aria-label="กลับหน้าหลักคลังข้อสอบ O-NET ป.6">
+        <svg class="brand-mark" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="24" height="24" rx="6" stroke="currentColor" stroke-width="2"/>
+          <path d="M8 9.5H20M8 14H16.5M8 18.5H13.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="19" cy="18.5" r="2.5" fill="currentColor"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-title">ระบบติวและจำลองสอบ O-NET ป.6</span>
+          <span class="brand-meta">ปีการศึกษา 2568 · สอบ 31 มกราคม 2569</span>
+        </span>
+      </button>
+
+      <div class="topbar-controls">
+        <div id="topbar-set-Slot" class="set-switch" role="group" aria-label="เลือกชุดข้อสอบ">
+          <button type="button" class="seg-btn is-active" data-set-group="A" aria-pressed="true">ชุดที่ 100</button>
+          <button type="button" class="seg-btn" data-set-group="B" aria-pressed="false">ชุดที่ 200</button>
+        </div>
+
+        <div class="font-switch" role="group" aria-label="ปรับขนาดตัวอักษร">
+          <button type="button" class="font-btn" data-font-scale="sm" title="ตัวอักษรขนาดกะทัดรัด" aria-pressed="false">ก-</button>
+          <button type="button" class="font-btn is-active" data-font-scale="md" title="ตัวอักษรขนาดมาตรฐาน" aria-pressed="true">ก</button>
+          <button type="button" class="font-btn" data-font-scale="lg" title="ตัวอักษรขนาดใหญ่สำหรับอ่านสบายตา" aria-pressed="false">ก+</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="app-main" tabindex="-1">
+    <!-- Loading / Error Fallback -->
+    <section id="view-loading" class="state-panel" aria-live="polite">
+      <div class="skeleton-line skeleton-lg"></div>
+      <div class="skeleton-line skeleton-md"></div>
+      <div class="skeleton-grid">
+        <div class="skeleton-box"></div>
+        <div class="skeleton-box"></div>
+      </div>
+    </section>
+
+    <!-- 1. HOME / WORKBENCH VIEW -->
+    <section id="view-home" class="home-view" hidden>
+      <div class="home-header">
+        <div class="home-intro">
+          <h1 id="home-heading">คลังข้อสอบมาตรฐาน O-NET ชั้นประถมศึกษาปีที่ 6</h1>
+          <p id="home-subtitle" class="home-desc">
+            ข้อสอบจริงปีการศึกษา 2568 ครบทั้ง 4 รายวิชา พร้อมเฉลยตรวจสอบจากกระดาษคำตอบ สทศ. และคำอธิบายวิธีคิดอย่างละเอียดทุกข้อ
+          </p>
+        </div>
+
+        <div class="mode-selector" role="radiogroup" aria-label="เลือกรูปแบบการฝึกทำข้อสอบ">
+          <button type="button" class="mode-option is-selected" data-mode="tutor" role="radio" aria-checked="true">
+            <span class="mode-option-head">
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 6.5V19.5M12 6.5C10.2 5.3 7.8 4.8 5 5V18C7.8 17.8 10.2 18.3 12 19.5M12 6.5C13.8 5.3 16.2 4.8 19 5V18C16.2 17.8 13.8 18.3 12 19.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="mode-option-title">โหมดติวข้อสอบทีละข้อ</span>
+            </span>
+            <span class="mode-option-desc">ตรวจคำตอบได้ทันที ดูเฉลยและวิธีคิดละเอียดรายข้อ ติดดาวข้อสำคัญไว้ทบทวนได้</span>
+          </button>
+
+          <button type="button" class="mode-option" data-mode="exam" role="radio" aria-checked="false">
+            <span class="mode-option-head">
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="13" r="8" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 9V13L14.8 14.8M9.5 2.5H14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="mode-option-title">โหมดจำลองสอบจริง</span>
+            </span>
+            <span class="mode-option-desc">จับเวลาตามเกณฑ์จริง สทศ. ส่งกระดาษคำตอบเพื่อคำนวณคะแนนเต็ม 100 รายตอน</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="home-layout">
+        <div class="subjects-panel" aria-labelledby="subjects-heading">
+          <div class="panel-bar">
+            <h2 id="subjects-heading">เลือกรายวิชาที่ต้องการฝึกทำ</h2>
+            <span id="active-set-badge" class="meta-pill">ชุดที่ 100 · กลุ่ม A-B1-C1</span>
+          </div>
+          <div id="subject-list" class="subject-list"></div>
+        </div>
+
+        <aside class="study-sidebar" aria-labelledby="study-status-heading">
+          <div class="sidebar-block">
+            <h2 id="study-status-heading">สรุปความก้าวหน้าการเรียน</h2>
+            <p id="study-set-caption" class="sidebar-caption">ข้อมูลบันทึกอัตโนมัติในเบราว์เซอร์เครื่องนี้</p>
+            <dl id="overall-stats" class="stat-list"></dl>
+          </div>
+
+          <div class="sidebar-block">
+            <h2>ทบทวนเฉพาะจุด</h2>
+            <p class="sidebar-caption">เลือกฝึกซ้ำเฉพาะข้อที่ติดดาวไว้หรือข้อที่เคยตอบผิดในชุดข้อสอบที่เลือก</p>
+            <div id="quick-review-list" class="quick-review-list"></div>
+          </div>
+
+          <div class="sidebar-block sidebar-reset-block">
+            <div id="reset-default-row" class="reset-row">
+              <span class="sidebar-caption">ต้องการล้างประวัติการทำข้อสอบทั้งหมดหรือไม่</span>
+              <button type="button" id="btn-show-reset" class="btn-text-danger">ล้างข้อมูลที่บันทึกไว้</button>
+            </div>
+            <div id="reset-confirm-row" class="reset-confirm" hidden>
+              <p class="reset-warn-text">ยืนยันการลบประวัติคะแนนและข้อที่ติดดาวทั้งหมดในเครื่องนี้?</p>
+              <div class="reset-actions">
+                <button type="button" id="btn-confirm-reset" class="btn btn-danger btn-sm">ยืนยันลบข้อมูล</button>
+                <button type="button" id="btn-cancel-reset" class="btn btn-secondary btn-sm">ยกเลิก</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 2. ACTIVE PRACTICE / EXAM SESSION VIEW -->
+    <section id="view-session" class="session-view" hidden>
+      <div class="session-toolbar" role="region" aria-label="แถบควบคุมการทำข้อสอบ">
+        <div class="session-toolbar-left">
+          <button type="button" id="btn-exit-session" class="btn btn-secondary btn-sm">
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>หน้าหลัก</span>
+          </button>
+          <div class="session-title-group">
+            <h1 id="session-subject-title" class="session-title">คณิตศาสตร์</h1>
+            <span id="session-meta-label" class="session-sub">รหัสวิชา 64 · ชุดที่ 100</span>
+          </div>
+        </div>
+
+        <div class="session-toolbar-right">
+          <!-- Tutor mode filter controls -->
+          <div id="tutor-filter-bar" class="filter-pills" role="group" aria-label="กรองข้อสอบในโหมดติว" hidden>
+            <button type="button" class="pill-btn is-active" data-filter="all">ทุกข้อ</button>
+            <button type="button" class="pill-btn" data-filter="starred">ติดดาว</button>
+            <button type="button" class="pill-btn" data-filter="wrong">ตอบผิด</button>
+          </div>
+
+          <div id="tutor-score-pill" class="score-live-pill" hidden></div>
+
+          <!-- Exam mode timer & submit -->
+          <div id="exam-controls" class="exam-controls" hidden>
+            <div id="exam-timer" class="timer-box" aria-live="off" title="เวลาที่เหลือในการทำข้อสอบ">
+              <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="13" r="8" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 9V13L14.5 14.5M9.5 2.5H14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <span id="exam-timer-text">60:00</span>
+            </div>
+            <button type="button" id="btn-request-submit" class="btn btn-primary btn-sm">ส่งกระดาษคำตอบ</button>
+          </div>
+
+          <button type="button" id="btn-toggle-palette" class="btn btn-secondary btn-sm palette-toggle-btn" aria-expanded="false" aria-controls="question-palette-aside">
+            <span>กระดาษคำตอบ</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Inline Exam Submit Confirmation Strip (no modal interruption) -->
+      <div id="exam-submit-strip" class="submit-confirm-strip" role="region" aria-label="ยืนยันการส่งกระดาษคำตอบ" hidden>
+        <p id="exam-submit-message" class="submit-confirm-msg"></p>
+        <div class="submit-confirm-actions">
+          <button type="button" id="btn-confirm-submit" class="btn btn-primary btn-sm">ยืนยันส่งและตรวจคะแนน</button>
+          <button type="button" id="btn-cancel-submit" class="btn btn-secondary btn-sm">กลับไปทำต่อ</button>
+        </div>
+      </div>
+
+      <div class="session-workspace">
+        <!-- Exam Booklet Column -->
+        <article id="question-sheet" class="question-sheet" aria-live="polite">
+          <div id="section-banner" class="section-banner"></div>
+
+          <div id="empty-filter-state" class="empty-state" hidden>
+            <h2>ไม่พบข้อสอบตามตัวกรองที่เลือก</h2>
+            <p>ยังไม่มีข้อที่ติดดาวหรือข้อที่ตอบผิดในหมวดนี้ สามารถกลับไปแสดงข้อสอบทุกข้อเพื่อฝึกทำต่อได้</p>
+            <button type="button" id="btn-reset-filter" class="btn btn-secondary">แสดงข้อสอบทุกข้อ</button>
+          </div>
+
+          <div id="question-body-wrap">
+            <div class="question-top-row">
+              <div class="q-number-group">
+                <h2 id="q-heading" class="q-number">ข้อที่ 1</h2>
+                <span id="q-points-badge" class="q-points">6.50 คะแนน</span>
+              </div>
+              <button type="button" id="btn-bookmark" class="bookmark-btn" aria-pressed="false">
+                <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3.5L14.7 8.95L20.7 9.82L16.35 14.06L17.38 20.04L12 17.22L6.62 20.04L7.65 14.06L3.3 9.82L9.3 8.95L12 3.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                </svg>
+                <span id="bookmark-label">ติดดาวทบทวน</span>
+              </button>
+            </div>
+
+            <!-- Shared Reading Passage -->
+            <div id="q-passage" class="passage-box" hidden></div>
+
+            <!-- Question Stem Figures -->
+            <div id="q-figures" class="figure-stack" hidden></div>
+
+            <!-- Question Stem Text -->
+            <div id="q-stem" class="q-stem"></div>
+
+            <!-- Interactive Answer Widget Container -->
+            <div id="q-interaction" class="q-interaction"></div>
+
+            <!-- Tutor Mode Check & Explanation Area -->
+            <div id="tutor-action-row" class="tutor-action-row" hidden>
+              <button type="button" id="btn-check-answer" class="btn btn-primary">ตรวจคำตอบ</button>
+              <button type="button" id="btn-reveal-explanation" class="btn btn-secondary" hidden>ดูเฉลยละเอียด</button>
+            </div>
+
+            <div id="q-feedback" class="feedback-panel" hidden></div>
+
+            <!-- Bottom Question Prev/Next Navigation -->
+            <nav class="sheet-nav" aria-label="เปลี่ยนข้อสอบ">
+              <button type="button" id="btn-prev-q" class="btn btn-secondary">
+                <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>ข้อก่อนหน้า</span>
+              </button>
+              <span id="q-progress-text" class="q-progress-text">1 / 15</span>
+              <button type="button" id="btn-next-q" class="btn btn-secondary">
+                <span>ข้อถัดไป</span>
+                <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </nav>
+          </div>
+        </article>
+
+        <!-- Answer Sheet / Navigator Sidebar -->
+        <aside id="question-palette-aside" class="palette-aside" aria-labelledby="palette-heading">
+          <div class="palette-header">
+            <h2 id="palette-heading">กระดาษคำตอบ</h2>
+            <button type="button" id="btn-close-palette" class="btn-icon-close" aria-label="ปิดแผงกระดาษคำตอบ">
+              <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </button>
+          </div>
+          <p id="palette-summary" class="palette-summary"></p>
+          <div id="palette-sections" class="palette-sections"></div>
+          <div class="palette-legend" aria-label="คำอธิบายสัญลักษณ์สี">
+            <span class="legend-item"><span class="swatch is-current"></span>ข้อปัจจุบัน</span>
+            <span class="legend-item"><span class="swatch is-answered"></span>ตอบแล้ว</span>
+            <span class="legend-item"><span class="swatch is-correct"></span>ถูกต้อง</span>
+            <span class="legend-item"><span class="swatch is-wrong"></span>ควรทบทวน</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 3. EXAM SIMULATION RESULTS & FULL REVIEW VIEW -->
+    <section id="view-result" class="result-view" hidden>
+      <div class="result-summary-panel">
+        <div class="result-head">
+          <div>
+            <h1 id="result-title">สรุปผลคะแนนการจำลองสอบ</h1>
+            <p id="result-subtitle" class="result-sub"></p>
+          </div>
+          <div class="result-score-box">
+            <span class="result-score-num" id="result-total-score">0.00</span>
+            <span class="result-score-max">จาก 100 คะแนน</span>
+          </div>
+        </div>
+
+        <div class="result-table-wrap">
+          <table class="data-table result-breakdown-table">
+            <thead>
+              <tr>
+                <th scope="col">ตอนที่ / ประเภทข้อสอบ</th>
+                <th scope="col" class="num-col">จำนวนข้อที่ถูก</th>
+                <th scope="col" class="num-col">คะแนนที่ได้</th>
+                <th scope="col" class="num-col">คะแนนเต็ม</th>
+              </tr>
+            </thead>
+            <tbody id="result-section-tbody"></tbody>
+          </table>
+        </div>
+
+        <!-- Optional Self-Grading Panel for Thai Q22 if applicable -->
+        <div id="result-essay-grader" class="result-essay-grader" hidden></div>
+
+        <div class="result-actions">
+          <button type="button" id="btn-practice-mistakes" class="btn btn-primary">ฝึกซ้ำเฉพาะข้อที่ผิดในโหมดติว</button>
+          <button type="button" id="btn-retake-exam" class="btn btn-secondary">สอบจำลองชุดนี้อีกครั้ง</button>
+          <button type="button" id="btn-result-home" class="btn btn-secondary">กลับหน้าหลัก</button>
+        </div>
+      </div>
+
+      <div class="review-section">
+        <div class="review-bar">
+          <h2>เฉลยและคำอธิบายรายข้อ</h2>
+          <div id="review-filter-bar" class="filter-pills" role="group" aria-label="กรองรายการเฉลย">
+            <button type="button" class="pill-btn is-active" data-review-filter="all">แสดงทุกข้อ</button>
+            <button type="button" class="pill-btn" data-review-filter="wrong">เฉพาะข้อที่ผิด / ยังไม่ตอบ</button>
+            <button type="button" class="pill-btn" data-review-filter="correct">เฉพาะข้อที่ถูก</button>
+          </div>
+        </div>
+        <div id="review-list" class="review-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Native Dialog Exclusively for Full-Resolution Exam Figure Zoom -->
+  <dialog id="figure-dialog" class="figure-dialog" aria-label="ภาพประกอบข้อสอบขนาดขยาย">
+    <div class="dialog-bar">
+      <span id="dialog-caption" class="dialog-caption">ภาพประกอบข้อสอบ</span>
+      <button type="button" id="btn-close-dialog" class="btn btn-secondary btn-sm">ปิดภาพขยาย (Esc)</button>
+    </div>
+    <div id="dialog-img-wrap" class="dialog-img-wrap"></div>
+  </dialog>
+
+  <script src="data/questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
